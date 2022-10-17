@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Zone</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <Style>
+        body {
+            font-family: "Ubuntu rev=2";
+            background-image: url("/image/Background.jpg");
+            background-size: cover;
+            height: 100vh;
+            background-repeat: no-repeat;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+
+
+
+        }
+
+        .left {
+            position: absolute;
+            left: 30px;
+            top: 0px;
+            display: inline-block;
+            color: white;
+            /* border: 2px solid red; */
+
+        }
+
+        .left img {
+            width: 156px;
+            filter: invert(100%);
+            margin-top: 0px;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 30px;
+            color: #c493ff;
+            font-weight: bold;
+        }
+
+        .mid {
+            display: block;
+            color: white;
+            /* border: 2px solid rgb(89, 255, 0); */
+            margin: 10px auto;
+            margin-top: 20px;
+            width: 946px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 30px;
+            padding: 19px;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: #9af3ff;
+            padding: 34px 14px;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+
+        }
+
+        .right {
+            position: absolute;
+            display: inline-block;
+            right: 34px;
+            top: 20px;
+            margin-top: 34px;
+            color: white;
+            /* border: 2px solid yellow */
+        }
+
+        .btn {
+            font-family: "Ubuntu rev=2";
+            background-color: black;
+            margin: 0px 9px;
+            color: #9af3ff;
+            padding: 4px 14px;
+            /* border: 2px solid #393040; */
+            border-radius: 7px;
+            font-size: 20px;
+
+        }
+
+        .btn:hover {
+            background-color: #393040;
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            margin: 22px 80px;
+            padding: 77px;
+            width: 32%;
+            border-radius: 28px;
+        }
+
+        .from-group input {
+            font-family: "Ubuntu rev=2";
+            text-align: center;
+            display: block;
+            width: 412px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 23px;
+        }
+
+        .container h1 {
+            text-align: center;
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+
+        .container button {
+            display: block;
+            width: 215px;
+            border-radius: 23px;
+            margin: 20px auto;
+        }
+    </Style>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- for left logo -->
+
+        <div class="left">
+            <img src="image/logo.png">
+            <div>Power Zone</div>
+        </div>
+
+        <!-- for mid nevigation menu -->
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Schedual</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons  -->
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Login</button>
+        </div>
+
+    </header>
+    <!-- form -->
+    <div class="container">
+        <h1>Join The Best Gym Of India</h1>
+        <form action="php">
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="from-group">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
